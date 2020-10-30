@@ -9,7 +9,7 @@ ORDER BY last_name DESC, first_name DESC;
 
 SELECT first_name, last_name FROM employees
 WHERE last_name LIKE 'e%'
-   OR last_name LIKE '%e'
+   AND last_name LIKE '%e'
 ORDER BY emp_no DESC;
 
 SELECT first_name, last_name FROM employees
